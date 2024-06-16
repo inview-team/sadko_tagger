@@ -1,0 +1,6 @@
+data
+yappy.csv
+output
+volumes
+__pycache__/
+*.pyc
