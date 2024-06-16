@@ -31,7 +31,7 @@ def prepare_frames(video_frames, output_dir, num_frames=1):
     return image_list
 
 class Caption():
-    def __init__(self, topk=5, device='cuda:0'):
+    def __init__(self, topk=5, device='cpu'):
         self.topk = topk
         self.device = device
         self.p_pr = (
@@ -64,7 +64,7 @@ class Caption():
 
 
 if __name__ == "__main__":
-    video_path = '/home/dilaks/lct/output/52cbde754a5e91923ff0b36934d4_scene_5.mp4'  # Replace with the actual video path
+    video_path = '/home/lct/output/52cbde754a5e91923ff0b36934d4_scene_5.mp4'  # Replace with the actual video path
     classifier = Caption()
 
     actions, content = classifier.caption_video(video_path)

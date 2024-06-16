@@ -6,7 +6,7 @@ from faster_whisper import WhisperModel
 from towhee import pipe
 
 reader = easyocr.Reader(['en', 'ru']) 
-model = WhisperModel("large-v3", device="cuda", compute_type="int8", download_root="../cache")
+model = WhisperModel("large-v3", device="cpu", compute_type="int8", download_root="../cache")
 
 
 def extract_text_from_video(frames: list[str]) -> list[str]:
@@ -49,6 +49,6 @@ class OCRTranscriber():
 
 
 if __name__ == "__main__":
-    path = ["/home/dilaks/lct/output/1506092031_kartinki_s_nadpisiami_22.jpg"]
+    path = ["/home/lct/output/1506092031_kartinki_s_nadpisiami_22.jpg"]
     ocr = OCRTranscriber()
     print(ocr.ocr_frames(path))

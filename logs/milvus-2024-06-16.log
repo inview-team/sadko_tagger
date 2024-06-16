@@ -260,7 +260,7 @@
 2024-06-16 15:33:16,477 ｜ DEBUG ｜ milvus.py ｜ __init__ ｜ 12 ｜ Successfully connect to Milvus with IP:127.0.0.1 and PORT:19530
 2024-06-16 15:33:16,565 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
 2024-06-16 15:33:21,267 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 15:33:21,268 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 15:33:21,268 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 15:33:21,273 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 15:33:21,274 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f71b03865f0>
 2024-06-16 15:33:21,274 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -355,7 +355,7 @@
 2024-06-16 15:33:27,001 ｜ DEBUG ｜ milvus.py ｜ __init__ ｜ 12 ｜ Successfully connect to Milvus with IP:127.0.0.1 and PORT:19530
 2024-06-16 15:33:27,074 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
 2024-06-16 15:33:30,399 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 15:33:30,399 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 15:33:30,399 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 15:33:30,404 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 15:33:30,404 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f716c76d060>
 2024-06-16 15:33:30,405 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -471,7 +471,7 @@
 2024-06-16 15:34:11,922 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
 2024-06-16 15:34:12,553 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
 2024-06-16 15:34:12,554 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 15:34:12,555 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 15:34:12,555 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 15:34:12,592 ｜ DEBUG ｜ _trace.py ｜ atrace ｜ 85 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 15:34:12,596 ｜ DEBUG ｜ _trace.py ｜ atrace ｜ 85 ｜ connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7f716c76c4f0>
 2024-06-16 15:34:12,596 ｜ DEBUG ｜ _trace.py ｜ atrace ｜ 85 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -559,7 +559,7 @@
 2024-06-16 15:34:32,645 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
 2024-06-16 15:34:33,251 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
 2024-06-16 15:34:33,252 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 15:34:33,253 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 15:34:33,253 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 15:34:39,824 ｜ DEBUG ｜ heartbeat.py ｜ received ｜ 101 ｜ Received heartbeat frame
 2024-06-16 15:34:54,477 ｜ DEBUG ｜ _trace.py ｜ atrace ｜ 85 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 15:34:54,482 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 39616), raddr=('127.0.0.1', 5672)>
@@ -1450,7 +1450,7 @@
 2024-06-16 16:02:04,481 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
 2024-06-16 16:02:04,774 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
 2024-06-16 16:02:12,569 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 16:02:12,570 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:02:12,570 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 16:02:12,575 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 16:02:12,576 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f0c1831bdf0>
 2024-06-16 16:02:12,576 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -1469,7 +1469,7 @@
 2024-06-16 16:02:13,994 ｜ DEBUG ｜ heartbeat.py ｜ _check_heartbeat ｜ 124 ｜ Received 4 heartbeat frames, sent 4, idle intervals 0
 2024-06-16 16:02:16,008 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f0c183192a0> with deadline=16163.260496122 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x7f0c1ee56fb0>>; now=16098.260496122; delay=65
 2024-06-16 16:02:16,013 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 16:02:16,013 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:02:16,013 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 16:04:10,130 ｜ DEBUG ｜ milvus.py ｜ __init__ ｜ 12 ｜ Successfully connect to Milvus with IP:127.0.0.1 and PORT:19530
 2024-06-16 16:04:10,131 ｜ DEBUG ｜ select_connection.py ｜ _get_poller ｜ 415 ｜ Using EPollPoller
 2024-06-16 16:04:10,131 ｜ DEBUG ｜ base_connection.py ｜ _start_connection_workflow ｜ 168 ｜ Created default connection workflow <pika.adapters.utils.connection_workflow.AMQPConnectionWorkflow object at 0x7fa8aa8cbc40>
@@ -1742,7 +1742,7 @@
 2024-06-16 16:04:46,375 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
 2024-06-16 16:04:46,661 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
 2024-06-16 16:04:46,662 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 16:04:46,663 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:04:46,663 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 16:04:46,674 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 16:04:46,675 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa8a4523670>
 2024-06-16 16:04:46,675 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -1772,7 +1772,7 @@
 2024-06-16 16:05:25,714 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
 2024-06-16 16:05:25,715 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 53458), raddr=('127.0.0.1', 5672)>
 2024-06-16 16:05:25,722 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 16:05:25,723 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:05:25,723 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 16:05:25,727 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 16:05:25,728 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa8a8d93f40>
 2024-06-16 16:05:25,728 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -1860,7 +1860,7 @@
 2024-06-16 16:05:43,410 ｜ DEBUG ｜ milvus.py ｜ __init__ ｜ 12 ｜ Successfully connect to Milvus with IP:127.0.0.1 and PORT:19530
 2024-06-16 16:05:43,466 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
 2024-06-16 16:05:43,467 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 16:05:43,467 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:05:43,467 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 16:05:43,474 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 16:05:43,475 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa8aa8e5fc0>
 2024-06-16 16:05:43,475 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -1877,7 +1877,7 @@
 2024-06-16 16:05:43,481 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ close.started
 2024-06-16 16:05:43,481 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ close.complete
 2024-06-16 16:05:46,009 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
-2024-06-16 16:05:46,010 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/dilaks/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:05:46,010 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
 2024-06-16 16:05:46,015 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
 2024-06-16 16:05:46,015 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa8aa8e5270>
 2024-06-16 16:05:46,016 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
@@ -1923,3 +1923,410 @@
 2024-06-16 16:06:25,721 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 53458), raddr=('127.0.0.1', 5672)>
 2024-06-16 16:06:30,717 ｜ DEBUG ｜ heartbeat.py ｜ _check_heartbeat ｜ 124 ｜ Received 3 heartbeat frames, sent 4, idle intervals 0
 2024-06-16 16:06:30,717 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7fa8aa8e4910> with deadline=16417.976374554 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x7fa8aa8cb0d0>>; now=16352.976374554; delay=65
+2024-06-16 16:10:09,186 ｜ DEBUG ｜ milvus.py ｜ __init__ ｜ 12 ｜ Successfully connect to Milvus with IP:127.0.0.1 and PORT:19530
+2024-06-16 16:10:09,187 ｜ DEBUG ｜ select_connection.py ｜ _get_poller ｜ 415 ｜ Using EPollPoller
+2024-06-16 16:10:09,187 ｜ DEBUG ｜ base_connection.py ｜ _start_connection_workflow ｜ 168 ｜ Created default connection workflow <pika.adapters.utils.connection_workflow.AMQPConnectionWorkflow object at 0x7f7f3a947c10>
+2024-06-16 16:10:09,187 ｜ DEBUG ｜ connection_workflow.py ｜ start ｜ 656 ｜ Starting AMQP Connection workflow asynchronously.
+2024-06-16 16:10:09,188 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a947be0> with deadline=16571.450614562 and callback=functools.partial(<bound method AMQPConnectionWorkflow._start_new_cycle_async of <pika.adapters.utils.connection_workflow.AMQPConnectionWorkflow object at 0x7f7f3a947c10>>, first=True); now=16571.450614562; delay=0
+2024-06-16 16:10:09,188 ｜ DEBUG ｜ connection_workflow.py ｜ _start_new_cycle_async ｜ 751 ｜ Beginning a new AMQP connection workflow cycle; attempts remaining after this: 0
+2024-06-16 16:10:09,188 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a947b80> with deadline=16571.451393699 and callback=<bound method AMQPConnectionWorkflow._try_next_config_async of <pika.adapters.utils.connection_workflow.AMQPConnectionWorkflow object at 0x7f7f3a947c10>>; now=16571.451393699; delay=0
+2024-06-16 16:10:09,189 ｜ DEBUG ｜ connection_workflow.py ｜ _try_next_config_async ｜ 779 ｜ _try_next_config_async: '127.0.0.1':5672
+2024-06-16 16:10:09,190 ｜ DEBUG ｜ select_connection.py ｜ add_callback_threadsafe ｜ 481 ｜ add_callback_threadsafe: added callback=<bound method _AddressResolver._dispatch_result of <pika.adapters.utils.selector_ioloop_adapter._AddressResolver object at 0x7f7f3a947d30>>
+2024-06-16 16:10:09,190 ｜ DEBUG ｜ select_connection.py ｜ process_timeouts ｜ 494 ｜ process_timeouts: invoking callback=<bound method _AddressResolver._dispatch_result of <pika.adapters.utils.selector_ioloop_adapter._AddressResolver object at 0x7f7f3a947d30>>
+2024-06-16 16:10:09,190 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ _dispatch_result ｜ 591 ｜ Invoking asynchronous getaddrinfo() completion callback; host='127.0.0.1'
+2024-06-16 16:10:09,191 ｜ DEBUG ｜ connection_workflow.py ｜ _on_getaddrinfo_async_done ｜ 804 ｜ getaddrinfo returned 1 records
+2024-06-16 16:10:09,191 ｜ DEBUG ｜ connection_workflow.py ｜ _try_next_resolved_address ｜ 822 ｜ Attempting to connect using address record (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+2024-06-16 16:10:09,191 ｜ INFO ｜ connection_workflow.py ｜ start ｜ 179 ｜ Pika version 1.3.2 connecting to ('127.0.0.1', 5672)
+2024-06-16 16:10:09,191 ｜ DEBUG ｜ select_connection.py ｜ add_callback_threadsafe ｜ 481 ｜ add_callback_threadsafe: added callback=<bound method _AsyncSocketConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncSocketConnector object at 0x7f7f3a947340>>
+2024-06-16 16:10:09,191 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a9473a0> with deadline=16581.454313331 and callback=<bound method AMQPConnector._on_tcp_connection_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x7f7f3a9472b0>>; now=16571.454313331; delay=10.0
+2024-06-16 16:10:09,192 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a9474c0> with deadline=16586.454476184 and callback=<bound method AMQPConnector._on_overall_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x7f7f3a9472b0>>; now=16571.454476184; delay=15.0
+2024-06-16 16:10:09,192 ｜ DEBUG ｜ select_connection.py ｜ process_timeouts ｜ 494 ｜ process_timeouts: invoking callback=<bound method _AsyncSocketConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncSocketConnector object at 0x7f7f3a947340>>
+2024-06-16 16:10:09,192 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncSocketConnector._on_writable of <pika.adapters.utils.io_services_utils._AsyncSocketConnector object at 0x7f7f3a947340>>)
+2024-06-16 16:10:09,192 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 324 ｜ set_writer(26, _) added handler Wr
+2024-06-16 16:10:09,193 ｜ DEBUG ｜ io_services_utils.py ｜ _start_async ｜ 324 ｜ Connection-establishment is in progress for <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>.
+2024-06-16 16:10:09,193 ｜ INFO ｜ io_services_utils.py ｜ _on_writable ｜ 345 ｜ Socket connected: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,193 ｜ DEBUG ｜ io_services_utils.py ｜ _report_completion ｜ 273 ｜ _AsyncSocketConnector._report_completion(None); <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,193 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:09,194 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 364 ｜ remove_writer(26) removed handler
+2024-06-16 16:10:09,194 ｜ DEBUG ｜ select_connection.py ｜ remove_timeout ｜ 284 ｜ remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a9473a0> with deadline=16581.454313331 and callback=<bound method AMQPConnector._on_tcp_connection_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x7f7f3a9472b0>>
+2024-06-16 16:10:09,194 ｜ DEBUG ｜ connection_workflow.py ｜ _on_tcp_connection_done ｜ 382 ｜ TCP connection to broker established: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>.
+2024-06-16 16:10:09,194 ｜ DEBUG ｜ io_services_utils.py ｜ start ｜ 456 ｜ _AsyncStreamConnector.start(); <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,194 ｜ DEBUG ｜ select_connection.py ｜ add_callback_threadsafe ｜ 481 ｜ add_callback_threadsafe: added callback=<bound method _AsyncStreamConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncStreamConnector object at 0x7f7f3a947640>>
+2024-06-16 16:10:09,195 ｜ DEBUG ｜ select_connection.py ｜ process_timeouts ｜ 494 ｜ process_timeouts: invoking callback=<bound method _AsyncStreamConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncStreamConnector object at 0x7f7f3a947640>>
+2024-06-16 16:10:09,195 ｜ DEBUG ｜ io_services_utils.py ｜ _start_async ｜ 528 ｜ _AsyncStreamConnector._start_async(); <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,195 ｜ DEBUG ｜ io_services_utils.py ｜ _linkup ｜ 566 ｜ _AsyncStreamConnector._linkup()
+2024-06-16 16:10:09,195 ｜ DEBUG ｜ connection.py ｜ _set_connection_state ｜ 2294 ｜ New Connection state: CLOSED (prev=CLOSED)
+2024-06-16 16:10:09,195 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Connection._on_connection_start of <SelectConnection CLOSED transport=None params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,195 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Connection._on_connection_close_from_broker of <SelectConnection CLOSED transport=None params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,196 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Connection._default_on_connection_error of <SelectConnection CLOSED transport=None params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,196 ｜ DEBUG ｜ connection.py ｜ _set_connection_state ｜ 2294 ｜ New Connection state: INIT (prev=CLOSED)
+2024-06-16 16:10:09,196 ｜ DEBUG ｜ connection.py ｜ __init__ ｜ 1092 ｜ Using external connection workflow.
+2024-06-16 16:10:09,196 ｜ DEBUG ｜ io_services_utils.py ｜ __init__ ｜ 715 ｜ _AsyncTransportBase.__init__: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,196 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_reader ｜ 251 ｜ SelectorIOServicesAdapter.set_reader(26, <bound method _AsyncPlaintextTransport._on_socket_readable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:09,197 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_reader ｜ 263 ｜ set_reader(26, _) added handler Rd
+2024-06-16 16:10:09,197 ｜ DEBUG ｜ io_services_utils.py ｜ _linkup ｜ 598 ｜ _linkup(): created transport <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>
+2024-06-16 16:10:09,197 ｜ DEBUG ｜ connection.py ｜ _set_connection_state ｜ 2294 ｜ New Connection state: PROTOCOL (prev=INIT)
+2024-06-16 16:10:09,197 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:09,197 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:09,197 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,198 ｜ DEBUG ｜ io_services_utils.py ｜ _linkup ｜ 609 ｜ _linkup(): introduced transport to protocol <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>; _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>
+2024-06-16 16:10:09,198 ｜ DEBUG ｜ io_services_utils.py ｜ _report_completion ｜ 499 ｜ _AsyncStreamConnector._report_completion((<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>)); <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,198 ｜ INFO ｜ connection_workflow.py ｜ _on_transport_establishment_done ｜ 428 ｜ Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>).
+2024-06-16 16:10:09,198 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method Connection._default_on_connection_error of <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,198 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method AMQPConnector._on_amqp_handshake_done of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x7f7f3a9472b0>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,199 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method AMQPConnector._on_amqp_handshake_done of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x7f7f3a9472b0>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,199 ｜ DEBUG ｜ io_services_utils.py ｜ _cleanup ｜ 422 ｜ _AsyncStreamConnector._cleanup(False)
+2024-06-16 16:10:09,199 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:09,199 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:09,200 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,201 ｜ DEBUG ｜ callback.py ｜ process ｜ 217 ｜ Processing 0:Connection.Start
+2024-06-16 16:10:09,201 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,202 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,202 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method Connection._on_connection_start of <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2024-06-16 16:10:09,202 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Connection._on_connection_start of <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>> for "0:Connection.Start"
+2024-06-16 16:10:09,202 ｜ DEBUG ｜ connection.py ｜ _set_connection_state ｜ 2294 ｜ New Connection state: START (prev=PROTOCOL)
+2024-06-16 16:10:09,202 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Connection._on_connection_tune of <SelectConnection START transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,203 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:09,203 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:09,203 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,204 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,204 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:09,204 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:09,204 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,205 ｜ DEBUG ｜ callback.py ｜ process ｜ 217 ｜ Processing 0:Connection.Tune
+2024-06-16 16:10:09,205 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,205 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,205 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method Connection._on_connection_tune of <SelectConnection START transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2024-06-16 16:10:09,206 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Connection._on_connection_tune of <SelectConnection START transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>> for "0:Connection.Tune"
+2024-06-16 16:10:09,206 ｜ DEBUG ｜ connection.py ｜ _set_connection_state ｜ 2294 ｜ New Connection state: TUNE (prev=START)
+2024-06-16 16:10:09,206 ｜ DEBUG ｜ connection.py ｜ _create_heartbeat_checker ｜ 1590 ｜ Creating a HeartbeatChecker: 60
+2024-06-16 16:10:09,206 ｜ DEBUG ｜ heartbeat.py ｜ __init__ ｜ 67 ｜ timeout: 60.000000 send_interval: 30.000000 check_interval: 65.000000
+2024-06-16 16:10:09,206 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a946fe0> with deadline=16601.46912252 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x7f7f3a9470a0>>; now=16571.46912252; delay=30.0
+2024-06-16 16:10:09,206 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a946f20> with deadline=16636.46936216 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x7f7f3a9470a0>>; now=16571.46936216; delay=65
+2024-06-16 16:10:09,207 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:09,207 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:09,207 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,207 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Connection._on_connection_open_ok of <SelectConnection TUNE transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,207 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,208 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:09,208 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:09,208 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,209 ｜ DEBUG ｜ callback.py ｜ process ｜ 217 ｜ Processing 0:Connection.OpenOk
+2024-06-16 16:10:09,209 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,209 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,209 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method Connection._on_connection_open_ok of <SelectConnection TUNE transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2024-06-16 16:10:09,210 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Connection._on_connection_open_ok of <SelectConnection TUNE transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>> for "0:Connection.OpenOk"
+2024-06-16 16:10:09,210 ｜ DEBUG ｜ connection.py ｜ _set_connection_state ｜ 2294 ｜ New Connection state: OPEN (prev=TUNE)
+2024-06-16 16:10:09,210 ｜ DEBUG ｜ callback.py ｜ process ｜ 217 ｜ Processing 0:_on_connection_open_ok
+2024-06-16 16:10:09,210 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method AMQPConnector._on_amqp_handshake_done of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x7f7f3a9472b0>> for "0:_on_connection_open_ok"
+2024-06-16 16:10:09,210 ｜ DEBUG ｜ connection_workflow.py ｜ _on_amqp_handshake_done ｜ 451 ｜ AMQPConnector: AMQP handshake attempt completed; state=3; error=None; '127.0.0.1'/(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+2024-06-16 16:10:09,210 ｜ DEBUG ｜ connection_workflow.py ｜ _on_amqp_handshake_done ｜ 470 ｜ AMQPConnector: AMQP connection established for '127.0.0.1'/(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672)): <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>
+2024-06-16 16:10:09,211 ｜ INFO ｜ connection_workflow.py ｜ _report_completion_and_cleanup ｜ 293 ｜ AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>
+2024-06-16 16:10:09,211 ｜ DEBUG ｜ select_connection.py ｜ remove_timeout ｜ 284 ｜ remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a9474c0> with deadline=16586.454476184 and callback=<bound method AMQPConnector._on_overall_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x7f7f3a9472b0>>
+2024-06-16 16:10:09,211 ｜ DEBUG ｜ connection_workflow.py ｜ _on_connector_done ｜ 839 ｜ Connection attempt completed with <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>
+2024-06-16 16:10:09,211 ｜ INFO ｜ connection_workflow.py ｜ _report_completion_and_cleanup ｜ 725 ｜ AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>
+2024-06-16 16:10:09,211 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,212 ｜ INFO ｜ blocking_connection.py ｜ _create_connection ｜ 453 ｜ Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>
+2024-06-16 16:10:09,212 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f7f79b72080>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,212 ｜ DEBUG ｜ connection.py ｜ _create_channel ｜ 1579 ｜ Creating channel 1
+2024-06-16 16:10:09,212 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Connection._on_channel_cleanup of <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': <Channel number=1 CLOSED conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,212 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_getempty of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,213 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_cancel of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,213 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_flow of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,213 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_close_from_broker of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,213 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:09,213 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:09,214 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,214 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1364 ｜ Entering blocking state on frame <Channel.Open(['out_of_band='])>; acceptable_replies=[<class 'pika.spec.Channel.OpenOk'>]
+2024-06-16 16:10:09,214 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1373 ｜ Adding on_synchronous_complete callback
+2024-06-16 16:10:09,214 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,214 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1379 ｜ Adding passed-in RPC response callback
+2024-06-16 16:10:09,214 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_openok of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2024-06-16 16:10:09,215 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method BlockingChannel._on_consumer_cancelled_by_broker of <BlockingChannel impl=<Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,215 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f7f3a9aa2c0>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,215 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method BlockingChannel._on_channel_closed of <BlockingChannel impl=<Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>>, 'one_shot': False, 'only': <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>, 'arguments': None}
+2024-06-16 16:10:09,215 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f7f79c21080>>, 'one_shot': False, 'only': None, 'arguments': None}
+2024-06-16 16:10:09,215 ｜ INFO ｜ blocking_connection.py ｜ __init__ ｜ 1264 ｜ Created channel=1
+2024-06-16 16:10:09,215 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:09,216 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:09,216 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,216 ｜ DEBUG ｜ callback.py ｜ process ｜ 217 ｜ Processing 1:Channel.OpenOk
+2024-06-16 16:10:09,216 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,216 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,217 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2024-06-16 16:10:09,217 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,217 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,217 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method Channel._on_openok of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2024-06-16 16:10:09,217 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Channel._on_synchronous_complete of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>> for "1:Channel.OpenOk"
+2024-06-16 16:10:09,218 ｜ DEBUG ｜ channel.py ｜ _on_synchronous_complete ｜ 1270 ｜ 0 blocked frames
+2024-06-16 16:10:09,218 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Channel._on_openok of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>> for "1:Channel.OpenOk"
+2024-06-16 16:10:09,218 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,218 ｜ DEBUG ｜ rmq.py ｜ connect ｜ 25 ｜ Successfully connected to RabbitMQ at 127.0.0.1:5672
+2024-06-16 16:10:09,227 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:09,227 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:09,228 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,228 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1364 ｜ Entering blocking state on frame <Queue.Declare(['arguments={}', 'auto_delete=False', 'durable=False', 'exclusive=False', 'nowait=False', 'passive=False', 'queue=video_queue', 'ticket=0'])>; acceptable_replies=[(<class 'pika.spec.Queue.DeclareOk'>, {'queue': 'video_queue'})]
+2024-06-16 16:10:09,229 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1373 ｜ Adding on_synchronous_complete callback
+2024-06-16 16:10:09,229 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'video_queue'}, 'calls': 1}
+2024-06-16 16:10:09,230 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1379 ｜ Adding passed-in RPC response callback
+2024-06-16 16:10:09,232 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f7f3a9ca180>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'video_queue'}, 'calls': 1}
+2024-06-16 16:10:09,233 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:09,233 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:09,233 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,235 ｜ DEBUG ｜ callback.py ｜ process ｜ 217 ｜ Processing 1:Queue.DeclareOk
+2024-06-16 16:10:09,235 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,236 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,236 ｜ DEBUG ｜ callback.py ｜ _dict_arguments_match ｜ 347 ｜ Comparing {'queue': 'video_queue'} to {'queue': 'video_queue'}
+2024-06-16 16:10:09,236 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'video_queue'}, 'calls': 0}
+2024-06-16 16:10:09,237 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,237 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,238 ｜ DEBUG ｜ callback.py ｜ _dict_arguments_match ｜ 347 ｜ Comparing {'queue': 'video_queue'} to {'queue': 'video_queue'}
+2024-06-16 16:10:09,238 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #0: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f7f3a9ca180>>, 'one_shot': True, 'only': None, 'arguments': {'queue': 'video_queue'}, 'calls': 0}
+2024-06-16 16:10:09,238 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Channel._on_synchronous_complete of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>> for "1:Queue.DeclareOk"
+2024-06-16 16:10:09,239 ｜ DEBUG ｜ channel.py ｜ _on_synchronous_complete ｜ 1270 ｜ 0 blocked frames
+2024-06-16 16:10:09,239 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f7f3a9ca180>> for "1:Queue.DeclareOk"
+2024-06-16 16:10:09,239 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,239 ｜ DEBUG ｜ rmq.py ｜ declare_queue ｜ 33 ｜ Declared RabbitMQ queue: video_queue
+2024-06-16 16:10:09,240 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:09,241 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:09,241 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,242 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1364 ｜ Entering blocking state on frame <Basic.Consume(['arguments={}', 'consumer_tag=ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3', 'exclusive=False', 'no_ack=False', 'no_local=False', 'nowait=False', 'queue=video_queue', 'ticket=0'])>; acceptable_replies=[(<class 'pika.spec.Basic.ConsumeOk'>, {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'})]
+2024-06-16 16:10:09,243 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1373 ｜ Adding on_synchronous_complete callback
+2024-06-16 16:10:09,243 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'}, 'calls': 1}
+2024-06-16 16:10:09,244 ｜ DEBUG ｜ channel.py ｜ _rpc ｜ 1379 ｜ Adding passed-in RPC response callback
+2024-06-16 16:10:09,244 ｜ DEBUG ｜ callback.py ｜ add ｜ 165 ｜ Added: {'callback': <bound method Channel._on_eventok of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'}, 'calls': 1}
+2024-06-16 16:10:09,244 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:09,245 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:09,245 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,246 ｜ DEBUG ｜ callback.py ｜ process ｜ 217 ｜ Processing 1:Basic.ConsumeOk
+2024-06-16 16:10:09,246 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,249 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,250 ｜ DEBUG ｜ callback.py ｜ _dict_arguments_match ｜ 347 ｜ Comparing {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'} to {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'}
+2024-06-16 16:10:09,250 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #1: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'}, 'calls': 0}
+2024-06-16 16:10:09,251 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 401 ｜ Processing use of oneshot callback
+2024-06-16 16:10:09,251 ｜ DEBUG ｜ callback.py ｜ _use_one_shot_callback ｜ 403 ｜ 0 registered uses left
+2024-06-16 16:10:09,252 ｜ DEBUG ｜ callback.py ｜ _dict_arguments_match ｜ 347 ｜ Comparing {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'} to {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'}
+2024-06-16 16:10:09,252 ｜ DEBUG ｜ callback.py ｜ remove ｜ 265 ｜ Removing callback #1: {'callback': <bound method Channel._on_eventok of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': {'consumer_tag': 'ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'}, 'calls': 0}
+2024-06-16 16:10:09,252 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x7f7f3a9aa2c0>> for "1:Basic.ConsumeOk"
+2024-06-16 16:10:09,253 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Channel._on_synchronous_complete of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>> for "1:Basic.ConsumeOk"
+2024-06-16 16:10:09,254 ｜ DEBUG ｜ channel.py ｜ _on_synchronous_complete ｜ 1270 ｜ 0 blocked frames
+2024-06-16 16:10:09,254 ｜ DEBUG ｜ callback.py ｜ process ｜ 231 ｜ Calling <bound method Channel._on_eventok of <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490> params=<ConnectionParameters host=127.0.0.1 port=5672 virtual_host=/ ssl=False>>>> for "1:Basic.ConsumeOk"
+2024-06-16 16:10:09,255 ｜ DEBUG ｜ channel.py ｜ _on_eventok ｜ 1169 ｜ Discarding frame <METHOD(['channel_number=1', 'frame_type=1', "method=<Basic.ConsumeOk(['consumer_tag=ctag1.5a665f86e44d4fa2a6c8af3b379ed6e3'])>"])>
+2024-06-16 16:10:09,256 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:09,257 ｜ DEBUG ｜ rmq.py ｜ consume_messages ｜ 46 ｜ Started consuming messages from queue: video_queue
+2024-06-16 16:10:16,257 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:16,260 ｜ DEBUG ｜ connectionpool.py ｜ _new_conn ｜ 1055 ｜ Starting new HTTPS connection (1): cdn-st.rutubelist.ru:443
+2024-06-16 16:10:16,717 ｜ DEBUG ｜ connectionpool.py ｜ _make_request ｜ 549 ｜ https://cdn-st.rutubelist.ru:443 "GET /media/86/7c/bc8217d041d7a38885a72c82dae4/fhd.mp4 HTTP/1.1" 200 2428282
+2024-06-16 16:10:17,428 ｜ INFO ｜ scene_manager.py ｜ detect_scenes ｜ 860 ｜ Downscale factor set to 2, effective resolution: 360 x 640
+2024-06-16 16:10:17,429 ｜ INFO ｜ scene_manager.py ｜ detect_scenes ｜ 882 ｜ Detecting scenes...
+2024-06-16 16:10:19,029 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:19,029 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-video-decode/ffmpeg-0
+2024-06-16 16:10:19,030 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:19,444 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:19,444 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-action-classification/pytorchvideo-0
+2024-06-16 16:10:19,445 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:21,883 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:21,886 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-image-decode/cv2-rgb-0
+2024-06-16 16:10:21,886 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-image-captioning/blip-1
+2024-06-16 16:10:21,887 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:22,403 ｜ INFO ｜ transcribe.py ｜ transcribe ｜ 323 ｜ Processing audio with duration 00:09.220
+2024-06-16 16:10:22,917 ｜ INFO ｜ transcribe.py ｜ transcribe ｜ 413 ｜ Detected language 'en' with probability 0.66
+2024-06-16 16:10:22,918 ｜ DEBUG ｜ transcribe.py ｜ generate_segments ｜ 559 ｜ Processing segment at 00:00.000
+2024-06-16 16:10:23,127 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,128 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:23,129 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,197 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,197 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:23,198 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,265 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,265 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:23,265 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,353 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,353 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:23,353 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,421 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,421 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:23,421 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,478 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,479 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:23,479 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,567 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,567 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:23,568 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,682 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,682 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:23,683 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,684 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,685 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:23,687 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,688 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,690 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:23,690 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,692 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,694 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:23,696 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,734 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,735 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:23,752 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,781 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,781 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:23,846 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,857 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,857 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:23,904 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:23,946 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:23,947 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:24,000 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:24,030 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:24,042 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:24,047 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:24,051 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:24,051 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:24,088 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:24,303 ｜ DEBUG ｜ milvus.py ｜ __init__ ｜ 12 ｜ Successfully connect to Milvus with IP:127.0.0.1 and PORT:19530
+2024-06-16 16:10:24,348 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
+2024-06-16 16:10:24,349 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 16:10:24,350 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:10:24,365 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
+2024-06-16 16:10:24,368 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.failed exception=ConnectError(ConnectionRefusedError(111, 'Connection refused'))
+2024-06-16 16:10:24,371 ｜ ERROR ｜ rmq.py ｜ process_message ｜ 99 ｜ Error processing message: [Errno 111] Connection refused
+2024-06-16 16:10:24,372 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:24,372 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:24,373 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:24,373 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:24,373 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:24,373 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:24,374 ｜ DEBUG ｜ rmq.py ｜ wrapped_callback ｜ 58 ｜ Successfully processed message: b'{\r\n  "id": "44555445575473",\r\n  "url": "https://cdn-st.rutubelist.ru/media/86/7c/bc8217d041d7a38885a72c82dae4/fhd.mp4",\r\n  "description": "#\xd1\x82\xd0\xb0\xd1\x87\xd0\xba\xd0\xb8 #\xd0\xbc\xd0\xb0\xd1\x88\xd0\xb8\xd0\xbd\xd1\x8b #\xd0\xbe\xd0\xb1\xd0\xb7\xd0\xbe\xd1\x80\xd0\xb0\xd0\xb2\xd1\x82\xd0\xbe"\r\n}'
+2024-06-16 16:10:39,207 ｜ DEBUG ｜ heartbeat.py ｜ _send_heartbeat ｜ 108 ｜ Sending heartbeat frame
+2024-06-16 16:10:39,207 ｜ DEBUG ｜ heartbeat.py ｜ _send_heartbeat_frame ｜ 180 ｜ Sending heartbeat frame
+2024-06-16 16:10:39,207 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:10:39,207 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:10:39,207 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:39,208 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a945780> with deadline=16631.471216707 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x7f7f3a9470a0>>; now=16601.471216707; delay=30.0
+2024-06-16 16:10:39,208 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:10:39,208 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:10:39,208 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:39,209 ｜ DEBUG ｜ heartbeat.py ｜ received ｜ 101 ｜ Received heartbeat frame
+2024-06-16 16:10:39,209 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:51,595 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_readable ｜ 1069 ｜ Recv would block on <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:10:51,598 ｜ DEBUG ｜ connectionpool.py ｜ _new_conn ｜ 1055 ｜ Starting new HTTPS connection (1): cdn-st.rutubelist.ru:443
+2024-06-16 16:10:52,057 ｜ DEBUG ｜ connectionpool.py ｜ _make_request ｜ 549 ｜ https://cdn-st.rutubelist.ru:443 "GET /media/86/7c/bc8217d041d7a38885a72c82dae4/fhd.mp4 HTTP/1.1" 200 2428282
+2024-06-16 16:10:53,011 ｜ INFO ｜ scene_manager.py ｜ detect_scenes ｜ 860 ｜ Downscale factor set to 2, effective resolution: 360 x 640
+2024-06-16 16:10:53,012 ｜ INFO ｜ scene_manager.py ｜ detect_scenes ｜ 882 ｜ Detecting scenes...
+2024-06-16 16:10:54,683 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:54,683 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-video-decode/ffmpeg-0
+2024-06-16 16:10:54,683 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:55,067 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:55,068 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-action-classification/pytorchvideo-0
+2024-06-16 16:10:55,069 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:55,913 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:55,914 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-image-decode/cv2-rgb-0
+2024-06-16 16:10:55,914 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-image-captioning/blip-1
+2024-06-16 16:10:55,914 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:56,215 ｜ INFO ｜ transcribe.py ｜ transcribe ｜ 323 ｜ Processing audio with duration 00:09.220
+2024-06-16 16:10:56,405 ｜ INFO ｜ transcribe.py ｜ transcribe ｜ 413 ｜ Detected language 'en' with probability 0.66
+2024-06-16 16:10:56,405 ｜ DEBUG ｜ transcribe.py ｜ generate_segments ｜ 559 ｜ Processing segment at 00:00.000
+2024-06-16 16:10:56,588 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:56,588 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:56,588 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:56,646 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:56,646 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:56,647 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:56,699 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:56,699 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:56,699 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:56,793 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:56,793 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:56,794 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:56,885 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:56,885 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:56,886 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:56,937 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:56,937 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:56,937 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,013 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,013 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-machine-translation/opus-mt-0
+2024-06-16 16:10:57,014 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,134 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,134 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,134 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,135 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,135 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,135 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,136 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,136 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,137 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,137 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,138 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,138 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,138 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,139 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,139 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,139 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,140 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,151 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,142 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,143 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,143 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,142 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,166 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,143 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,142 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,154 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-sentence-embedding/sbert-0
+2024-06-16 16:10:57,165 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,166 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_input
+2024-06-16 16:10:57,145 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,188 ｜ INFO ｜ node.py ｜ process ｜ 167 ｜ Begin to run Node-_output
+2024-06-16 16:10:57,737 ｜ DEBUG ｜ milvus.py ｜ __init__ ｜ 12 ｜ Successfully connect to Milvus with IP:127.0.0.1 and PORT:19530
+2024-06-16 16:10:57,767 ｜ DEBUG ｜ milvus.py ｜ insert ｜ 53 ｜ Insert vectors to Milvus in collection: milvus_video_search with 10 rows
+2024-06-16 16:10:57,768 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 16:10:57,769 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:10:57,776 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
+2024-06-16 16:10:57,776 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f7f38b8acb0>
+2024-06-16 16:10:57,777 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
+2024-06-16 16:10:57,777 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.complete
+2024-06-16 16:10:57,778 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_body.started request=<Request [b'POST']>
+2024-06-16 16:10:57,778 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_body.complete
+2024-06-16 16:10:57,778 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 16:10:57,796 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_headers.complete return_value=(b'HTTP/1.1', 405, b'METHOD NOT ALLOWED', [(b'Server', b'gunicorn/19.9.0'), (b'Date', b'Sun, 16 Jun 2024 13:10:57 GMT'), (b'Connection', b'keep-alive'), (b'Content-Type', b'text/html'), (b'Allow', b'GET, HEAD, OPTIONS'), (b'Content-Length', b'178'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Credentials', b'true')])
+2024-06-16 16:10:57,796 ｜ INFO ｜ _client.py ｜ _send_single_request ｜ 1026 ｜ HTTP Request: POST http://localhost:8076/ "HTTP/1.1 405 METHOD NOT ALLOWED"
+2024-06-16 16:10:57,797 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_body.started request=<Request [b'POST']>
+2024-06-16 16:10:57,797 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_body.complete
+2024-06-16 16:10:57,797 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ response_closed.started
+2024-06-16 16:10:57,798 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ response_closed.complete
+2024-06-16 16:10:57,798 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ close.started
+2024-06-16 16:10:57,798 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ close.complete
+2024-06-16 16:11:00,100 ｜ DEBUG ｜ _config.py ｜ load_ssl_context ｜ 80 ｜ load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-06-16 16:11:00,101 ｜ DEBUG ｜ _config.py ｜ load_ssl_context_verify ｜ 146 ｜ load_verify_locations cafile='/home/miniconda3/envs/tow/lib/python3.10/site-packages/certifi/cacert.pem'
+2024-06-16 16:11:00,105 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.started host='localhost' port=8076 local_address=None timeout=10.0 socket_options=None
+2024-06-16 16:11:00,106 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f7f3a953eb0>
+2024-06-16 16:11:00,106 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.started request=<Request [b'POST']>
+2024-06-16 16:11:00,106 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_headers.complete
+2024-06-16 16:11:00,106 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_body.started request=<Request [b'POST']>
+2024-06-16 16:11:00,107 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ send_request_body.complete
+2024-06-16 16:11:00,107 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_headers.started request=<Request [b'POST']>
+2024-06-16 16:11:00,107 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'NOT FOUND', [(b'Server', b'gunicorn/19.9.0'), (b'Date', b'Sun, 16 Jun 2024 13:11:00 GMT'), (b'Connection', b'keep-alive'), (b'Content-Type', b'text/html'), (b'Content-Length', b'233'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Credentials', b'true')])
+2024-06-16 16:11:00,108 ｜ INFO ｜ _client.py ｜ _send_single_request ｜ 1026 ｜ HTTP Request: POST http://localhost:8076/445557445575473 "HTTP/1.1 404 NOT FOUND"
+2024-06-16 16:11:00,108 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_body.started request=<Request [b'POST']>
+2024-06-16 16:11:00,108 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ receive_response_body.complete
+2024-06-16 16:11:00,109 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ response_closed.started
+2024-06-16 16:11:00,109 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ response_closed.complete
+2024-06-16 16:11:00,109 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ close.started
+2024-06-16 16:11:00,109 ｜ DEBUG ｜ _trace.py ｜ trace ｜ 45 ｜ close.complete
+2024-06-16 16:11:00,109 ｜ INFO ｜ rmq.py ｜ process_message ｜ 97 ｜ Processed message, Milvus IDs: [450504489055563341, 450504489055563342, 450504489055563343, 450504489055563344, 450504489055563345, 450504489055563346, 450504489055563347, 450504489055563348, 450504489055563349, 450504489055563350], Search Service Response code: 405, Index Service Response code: 404
+2024-06-16 16:11:00,110 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:11:00,110 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:11:00,110 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:11:00,110 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:11:00,110 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:11:00,110 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:11:00,111 ｜ DEBUG ｜ rmq.py ｜ wrapped_callback ｜ 58 ｜ Successfully processed message: b'{\r\n  "id": "445557445575473",\r\n  "url": "https://cdn-st.rutubelist.ru/media/86/7c/bc8217d041d7a38885a72c82dae4/fhd.mp4",\r\n  "description": "#\xd1\x82\xd0\xb0\xd1\x87\xd0\xba\xd0\xb8 #\xd0\xbc\xd0\xb0\xd1\x88\xd0\xb8\xd0\xbd\xd1\x8b #\xd0\xbe\xd0\xb1\xd0\xb7\xd0\xbe\xd1\x80\xd0\xb0\xd0\xb2\xd1\x82\xd0\xbe"\r\n}'
+2024-06-16 16:11:09,211 ｜ DEBUG ｜ heartbeat.py ｜ _send_heartbeat ｜ 108 ｜ Sending heartbeat frame
+2024-06-16 16:11:09,212 ｜ DEBUG ｜ heartbeat.py ｜ _send_heartbeat_frame ｜ 180 ｜ Sending heartbeat frame
+2024-06-16 16:11:09,212 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 312 ｜ SelectorIOServicesAdapter.set_writer(26, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f7f3a947490>>)
+2024-06-16 16:11:09,212 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ set_writer ｜ 334 ｜ set_writer(26, _) updated handler RdWr
+2024-06-16 16:11:09,212 ｜ DEBUG ｜ io_services_utils.py ｜ write ｜ 1031 ｜ Turned on writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>
+2024-06-16 16:11:09,212 ｜ DEBUG ｜ select_connection.py ｜ call_later ｜ 263 ｜ call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x7f7f3a947010> with deadline=16661.476838254 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x7f7f3a9470a0>>; now=16631.476838254; delay=30.0
+2024-06-16 16:11:09,213 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 344 ｜ SelectorIOServicesAdapter.remove_writer(26)
+2024-06-16 16:11:09,213 ｜ DEBUG ｜ selector_ioloop_adapter.py ｜ remove_writer ｜ 367 ｜ remove_writer(26) updated handler Rd
+2024-06-16 16:11:09,213 ｜ DEBUG ｜ io_services_utils.py ｜ _on_socket_writable ｜ 1118 ｜ Turned off writability watcher: <socket.socket fd=26, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 35200), raddr=('127.0.0.1', 5672)>

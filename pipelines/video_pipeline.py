@@ -16,7 +16,7 @@ translator = OpusTranslate()
 sentence_embedding = MiniLMEmbed()
 
 def video_pipeline(video_id, video_url, description):
-    output_dir = os.path.join('/home/dilaks/lct/output', video_id)
+    output_dir = os.path.join('/home/lct/output', video_id)
     os.makedirs(output_dir, exist_ok=True)
     
     download_video(video_id, video_url, output_dir)
@@ -48,7 +48,7 @@ def video_pipeline(video_id, video_url, description):
     return vectors, cleaned_list
 
 if __name__ == "__main__":
-    with open('/home/dilaks/lct/yappy.csv', encoding='utf-8') as csvfile:
+    with open('/home/lct/yappy.csv', encoding='utf-8') as csvfile:
         file_reader = csv.reader(csvfile)
         next(file_reader)
         n = 0

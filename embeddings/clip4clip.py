@@ -1,7 +1,7 @@
 from towhee import pipe, ops, DataCollection
 
 class Clip4ClipEmbedding():
-    def __init__(self, model_name='clip_vit_b32', device='cuda:0'):
+    def __init__(self, model_name='clip_vit_b32', device='cpu'):
         self.model_name = model_name
         self.device = device
 
@@ -30,7 +30,7 @@ class Clip4ClipEmbedding():
         return result.get_dict()
 
 if __name__ == "__main__":
-    video_path = '/home/dilaks/lct/output/fhd_scene_1.mp4'
+    video_path = '/home/lct/output/fhd_scene_1.mp4'
     embedding_generator = Clip4ClipEmbedding()
     embedding = embedding_generator.generate_video_embeddings(video_path)
     print(embedding)
