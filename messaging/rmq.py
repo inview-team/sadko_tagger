@@ -63,7 +63,7 @@ class RabbitMQHelper:
 def process_message(message):
     try:
         tag_message = json.loads(message)
-        vectors, words = video_pipeline(tag_message["ID"], tag_message["Url"])
+        vectors, words = video_pipeline(tag_message["ID"], tag_message["Url"], tag_message["Description"])
 
         milvus_client = MilvusHelper()
         if not milvus_client.has_collection(DEFAULT_TABLE):
