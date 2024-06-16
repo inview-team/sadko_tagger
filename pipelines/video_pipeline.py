@@ -9,6 +9,7 @@ from transcribe.whisper_transcriber import FasterWhisperTranscriber
 from utils.process_text import clean_text, extract_terms
 from translate.opus import OpusTranslate
 from embeddings.minilm import MiniLMEmbed
+from config.config import OUTPUT_PATH
 
 classifier = Caption()
 transcriber = FasterWhisperTranscriber(model_size='large-v3')
@@ -16,7 +17,7 @@ translator = OpusTranslate()
 sentence_embedding = MiniLMEmbed()
 
 def video_pipeline(video_id, video_url, description):
-    output_dir = os.path.join('/home/lct/output', video_id)
+    output_dir = os.path.join(OUTPUT_PATH, video_id)
     os.makedirs(output_dir, exist_ok=True)
     
     download_video(video_id, video_url, output_dir)
