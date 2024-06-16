@@ -19,7 +19,7 @@ class TagMessage(BaseModel):
     description: str
 
 class SearchRequest(BaseModel):
-    search_text: str
+    text: str
 
 @app.post("/video/process")
 def process_video(tag: TagMessage):
@@ -30,8 +30,8 @@ def process_video(tag: TagMessage):
             milvus_client.create_index(DEFAULT_TABLE)
         results = milvus_client.insert(DEFAULT_TABLE, vectors)
         vector_ids = [str(x) for x in results]
-        search_response = httpx.post(SEARCH_SERVICE_ADDRESS, json={"words": words}, timeout=10.0)
-        index_response = httpx.post(INDEX_SERVICE_ADDRESS+tag.id, json={"vectors": vector_ids}, timeout=10.0)
+        search_response = httpx.post(f"{SEARCH_SERVICE_ADDRESS}/word/add", json={"words": words}, timeout=10.0)
+        index_response = httpx.put(f"{INDEX_SERVICE_ADDRESS}/index/{tag.id}", json={"vectors": vector_ids}, timeout=10.0)
         return {"Milvus IDs": vector_ids, "Search Service Response Code": search_response.status_code, "Index Service Response Code": index_response.status_code }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -39,7 +39,7 @@ def process_video(tag: TagMessage):
 @app.post("/video/search")
 async def search_videos(request: SearchRequest, top_k: int = 10):
     try:
-        query_vector = text_pipeline(request.search_text)
+        query_vector = text_pipeline(request.text)
         results = milvus_client.search_vectors(DEFAULT_TABLE, [query_vector], top_k)
         vector_ids = [str(x.id) for x in results[0]]
         return {"vector_ids": vector_ids}
