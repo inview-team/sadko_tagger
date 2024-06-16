@@ -96,7 +96,7 @@ def process_message(message):
         results = milvus_client.insert(DEFAULT_TABLE, vectors)
         vector_ids = [str(x) for x in results]
         search_response = httpx.post(f"{SEARCH_SERVICE_ADDRESS}/word/add", json={"words": words}, timeout=10.0)
-        index_response = httpx.put(f"{INDEX_SERVICE_ADDRESS}/{tag_message['id']}", json={"vectors": vector_ids}, timeout=10.0)
+        index_response = httpx.put(f"{INDEX_SERVICE_ADDRESS}/index/{tag_message['id']}", json={"vectors": vector_ids}, timeout=10.0)
         LOGGER.info(f"Processed message, Milvus IDs: {results}, Search Service Response code: {search_response.status_code}, Index Service Response code: {index_response.status_code}")
     except Exception as e:
         LOGGER.error(f"Error processing message: {e}")
