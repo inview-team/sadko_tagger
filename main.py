@@ -19,7 +19,7 @@ class TagMessage(BaseModel):
     description: str
 
 class SearchRequest(BaseModel):
-    text: str
+    query: str
 
 @app.post("/video/process")
 def process_video(tag: TagMessage):
@@ -39,7 +39,7 @@ def process_video(tag: TagMessage):
 @app.post("/video/search")
 async def search_videos(request: SearchRequest, top_k: int = 10):
     try:
-        query_vector = text_pipeline(request.text)
+        query_vector = text_pipeline(request.query)
         results = milvus_client.search_vectors(DEFAULT_TABLE, [query_vector], top_k)
         vector_ids = [str(x.id) for x in results[0]]
         return {"vector_ids": vector_ids}
