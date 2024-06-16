@@ -4,7 +4,7 @@ RUN pip3 install --upgrade pip
 RUN apt-get update
 RUN apt-get install ffmpeg libsm6 libxext6 git -y
 
-WORKDIR /app/src
+WORKDIR /app
 COPY . /app
 
 RUN pip3 install -r /app/requirements.txt
