@@ -21,13 +21,13 @@ class TagMessage(BaseModel):
 class SearchRequest(BaseModel):
     query: str
 
-@app.post("/video/process")
+@app.post("/video/process", summary="Process Video", description="Processes a video by extracting vectors and words, storing them in Milvus, and updating search and index services.")
 def process_video(tag: TagMessage):
     try:
         vectors, words = video_pipeline(tag.id, tag.url, tag.description)
         if not milvus_client.has_collection(DEFAULT_TABLE):
             milvus_client.create_collection(DEFAULT_TABLE)
-            milvus_client.create_index(DEFAULT_TABLE)
+        milvus_client.create_index(DEFAULT_TABLE)
         results = milvus_client.insert(DEFAULT_TABLE, vectors)
         vector_ids = [str(x) for x in results]
         search_response = httpx.post(f"{SEARCH_SERVICE_ADDRESS}/word/add", json={"words": words}, timeout=10.0)
@@ -35,8 +35,8 @@ def process_video(tag: TagMessage):
         return {"Milvus IDs": vector_ids, "Search Service Response Code": search_response.status_code, "Index Service Response Code": index_response.status_code }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-    
-@app.post("/video/search")
+
+@app.post("/video/search", summary="Search Videos", description="Searches for videos based on a text query, returning the IDs of the most relevant video vectors.")
 async def search_videos(request: SearchRequest, top_k: int = 10):
     try:
         query_vector = text_pipeline(request.query)
@@ -53,4 +53,3 @@ def start_rabbitmq_consumer():
 if __name__ == "__main__":
     threading.Thread(target=start_rabbitmq_consumer, daemon=True).start()
     uvicorn.run(app, host="0.0.0.0", port=8842)
- 
