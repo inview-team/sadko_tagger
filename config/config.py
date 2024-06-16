@@ -28,5 +28,6 @@ LOG_FILE_PATH = os.getenv("LOG_FILE_PATH", "/var/log/myapp.log")
 ############### Number of log files ###############
 LOGS_NUM = int(os.getenv("logs_num", "0"))
 
-############### Search service address ###############
-SEACH_SERVICE_ADDRESS = os.getenv("SEACH_SERVICE_ADDRESS", "http://localhost:8888")
+############### Service addresses ###############
+SEARCH_SERVICE_ADDRESS = os.getenv("SEARCH_SERVICE_ADDRESS", "http://localhost:8076/")
+INDEX_SERVICE_ADDRESS = os.getenv("INDEX_SERVICE_ADDRESS", "http://localhost:8076/")
